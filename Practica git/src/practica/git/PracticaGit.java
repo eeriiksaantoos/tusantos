@@ -12,11 +12,24 @@ package practica.git;
  */
 public class PracticaGit {
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        int multi = multiplicacion(12 , 13);
+        System.out.println(multi);
+    }
+
+    public static int multiplicacion(int a , int b){
+    
+    int multiplicacion = a * b; 
+    return multiplicacion;
+
+    }
+
+    public static int suma(int a , int b){
+    
+    int suma = a + b; 
+    return suma;
     }
 
 }
